@@ -13,4 +13,17 @@
   :GITHUB: octocat
   :LINKEDIN: johndoebar
   :END:
+* Skills
+  - HTML
+  - CSS
+  - JavaScript
+  - React
+  - Angular
+  - Vue.js
+  - Node.js
+  - Express.js
+  - MongoDB
+  - SQL
+  - RESTful APIs
+  - Responsive Design- 
 * Experience
