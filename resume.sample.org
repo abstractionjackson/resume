@@ -1,0 +1,16 @@
+#+title:Professional Resume
+#+author: Doe, John
+* Contact
+  :PROPERTIES:
+  :ID:       ecf29eaa-72c0-488f-8354-e3c983e11b8a
+  :EMAIL: foo@bar.baz
+  :PHONE: 5553334333
+  :WEBSITE: example.com
+  :NAME_LAST: Doe
+  :NAME_FIRST: John
+  :LOC_CITY: Spokane
+  :LOC_STATE: WA
+  :SOC_GITHUB: octocat
+  :SOC_LINKEDIN: johndoebar
+  :END:
+* Experience
