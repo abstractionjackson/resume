@@ -20,6 +20,15 @@ def get_title(node):
     meta_data = get_meta_data(node.body)
     return meta_data["title"]
 
+def get_header(root, heading="Contact"):
+    for node in root:
+        if node.heading == heading:
+            source = node
+            properties = ["NAME_LAST", "NAME_FIRST", "LOC_CITY"]
+            return {
+                k.lower(): source.get_property(k)
+                for k in properties
+            }
 def render_template(template_name, data):
     # Set up Jinja environment
     template_dir = path.join(path.dirname(path.abspath(__file__)), 'templates')  # Change 'templates' to your template directory
@@ -48,7 +57,7 @@ def main():
         raise Exception()
     title = get_title(data)
     print("Title: ", title)
-    template = render_template(environ.get("TEMPLATE"), {"title": title})
+    template = render_template(environ.get("TEMPLATE"), {"title": title, "header": get_header(data)})
     
     with open(path.join("public", environ.get("OUTPUT")), 'w') as f:
         f.write(template)
