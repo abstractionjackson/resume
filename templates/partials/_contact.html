@@ -1,0 +1,17 @@
+<section class="contact">
+    <a href="mailto:{{ email }}" class="contact container email" id="email">{{ email }}</a>
+    <div class="contact container location">
+      <span id="city">{{ location["CITY"] }}</span>
+      <span class="punctuation">,</span>
+      <span class="punctuation">{{ " " }}</span>
+      <span id="state">{{ location["STATE"] }}</span>
+    </div>
+    <div class="contact container social">
+      <div id="linkedin">
+        <span class="text">LinkedIn</span>
+        <a href="http://linkedin.com/in/{{linkedin}}">
+          <span class="handle">@{{ linkedin }}</span>
+        </a>
+      </div>
+    </div>
+  </section>

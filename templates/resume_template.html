@@ -1,20 +1,18 @@
-{% set email = contact["email"] %}
+{% set meta = resume.meta %}
+{% set header = resume.header %}
+{% set email = resume.email %}
+{% set location = resume.location %}
+{% set linkedin = resume.linkedin %}
 <html>
   <head>
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/main.css" />
-    <title>{{ title }}</title>
+    <title>{{ meta["TITLE"] }}</title>
   </head>
   <body>
     <header>
-      <h1 id="name">
-        <span>{{ header['name_first'] }}</span>
-        <span class="punctuation">{{ " " }}</span>
-        <span>{{ header['name_last'] }}</span>
-      </h1>
-      <div class="contact">
-        <a href="mailto:{{ email }}" class="email">{{ email }}</a>
-      </div>
+      {% include "partials/_name.html" %}
+      {% include "partials/_contact.html" %}
     </header>
   </body>
 </html>

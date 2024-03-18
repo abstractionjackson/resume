@@ -1,3 +1,7 @@
+:root {
+  --contact-container-margin: 0.5em;
+}
+
 /* Heading 1 */
 h1 {
   font-size: 24px;
@@ -46,4 +50,20 @@ body {
   line-height: 1.5; /* Adjust line height for better readability */
   font-family: Arial, sans-serif; /* Specify preferred font family */
   color: #000; /* black */
+}
+
+/* Contact */
+section.contact {
+  display: flex;
+}
+.contact.container {
+  margin-left: var(--contact-container-margin);
+  margin-right: var(--contact-container-margin);
+}
+.contact.container::after {
+  content: "|";
+  margin-left: calc(var(--contact-container-margin) * 2);
+}
+.contact.container:last-child::after {
+  content: initial;
 }
