@@ -20,13 +20,12 @@ def get_title(node):
     meta_data = get_meta_data(node.body)
     return meta_data["title"]
 
-def get_header(root, heading="Contact"):
+def get_properties_dict(root, heading="", properties=[]):
+    '''Get a dict of the properties under heading'''
     for node in root:
-        if node.heading == heading:
-            source = node
-            properties = ["NAME_LAST", "NAME_FIRST", "LOC_CITY"]
+        if node.heading.upper() == heading.upper():
             return {
-                k.lower(): source.get_property(k)
+                k.lower(): node.get_property(k.upper())
                 for k in properties
             }
 def render_template(template_name, data):
@@ -57,7 +56,7 @@ def main():
         raise Exception()
     title = get_title(data)
     print("Title: ", title)
-    template = render_template(environ.get("TEMPLATE"), {"title": title, "header": get_header(data)})
+    template = render_template(environ.get("TEMPLATE"), {"title": title, "header": get_properties_dict(data, heading="Contact", properties=["NAME_LAST", "NAME_FIRST"]), "contact": get_properties_dict(data, heading="Contact", properties=["email"])})
     
     with open(path.join("public", environ.get("OUTPUT")), 'w') as f:
         f.write(template)
