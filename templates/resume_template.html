@@ -1,1 +1,18 @@
-html
+{% set meta = resume.meta %}
+{% set header = resume.header %}
+{% set email = resume.email %}
+{% set location = resume.location %}
+{% set linkedin = resume.linkedin %}
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>{{ meta["TITLE"] }}</title>
+  </head>
+  <body>
+    <header>
+      {% include "partials/_name.html" %}
+      {% include "partials/_contact.html" %}
+    </header>
+  </body>
+</html>
