@@ -8,9 +8,9 @@
   :WEBSITE: example.com
   :NAME_LAST: Doe
   :NAME_FIRST: John
-  :LOC_CITY: Spokane
-  :LOC_STATE: WA
-  :SOC_GITHUB: octocat
-  :SOC_LINKEDIN: johndoebar
+  :CITY: Spokane
+  :STATE: WA
+  :GITHUB: octocat
+  :LINKEDIN: johndoebar
   :END:
 * Experience
