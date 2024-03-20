@@ -27,3 +27,17 @@
   - RESTful APIs
   - Responsive Design- 
 * Experience
+** Software Development Engineer
+   :PROPERTIES:
+   :ID:       c10f63cd-daf0-424b-997e-9c46e6f961df
+   :company:  AWS
+   :start:    [2022-05-20 Fri]
+   :stop:     [2022-09-30 Fri]
+   :LOCATION: Boston, MA
+   :remote:   t
+   :END:
+*** Details
+- lorem
+- ipsum
+- dolor
+- est
