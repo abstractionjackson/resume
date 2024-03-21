@@ -14,6 +14,10 @@ class HTMLHandler(FileSystemEventHandler):
             print(f"HTML file {event.src_path} has been modified. Relaunching app.py...")
             subprocess.run(['python', 'app.py'])
 
+class SourceCodeHandler(FileSystemEventHandler):
+    # watch for changes to .py files like app, classes, utils...
+    pass
+
 if __name__ == "__main__":
     path = "templates"  # Change to the directory you want to monitor
     event_handler = HTMLHandler()
