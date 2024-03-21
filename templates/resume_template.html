@@ -35,7 +35,11 @@
             <h3>Skills</h3>
           </header>
           <main>
-            {% include "partials/_skills.html" %}
+            <ul class="skill">
+              {% for skill in resume.skills %}
+                <li>{% include "partials/_skill.html" %}</li>
+              {% endfor %}
+            </ul>
           </main>
         </section>
         <section>
@@ -43,7 +47,35 @@
             <h3>Experience</h3>
           </header>
           <main>
-            {% include "partials/_experience_list.html" %}
+            <ul>
+              {% for job in resume.jobs %}
+                <li>{% include "partials/_job.html" %}</li>
+              {% endfor %}
+            </ul>
+          </main>
+        </section>
+        <section>
+          <header>
+            <h3>Awards</h3>
+          </header>
+          <main>
+            <ul>
+              {% for award in resume.awards %}
+                <li>{% include "partials/_award.html" %}</li>
+              {% endfor %}
+            </ul>
+          </main>
+        </section>
+        <section>
+          <header>
+            <h3>Education</h3>
+          </header>
+          <main>
+            <ul>
+              {% for education in resume.education_history %}
+                <li>{% include "partials/_education.html" %}</li>
+              {% endfor %}
+            </ul>
           </main>
         </section>
       </main>
