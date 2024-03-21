@@ -43,6 +43,34 @@ Results-driven software engineer with expertise in full-stack development and ag
 - Utilized Agile methodologies to streamline project workflows and ensure timely delivery of high-quality code.
 - Demonstrated expertise in full-stack development, with proficiency in languages such as Python, JavaScript, and Java.
 - Contributed to the optimization of database architecture and performance tuning for enhanced system efficiency.
+** Software Engineer
+   :PROPERTIES:
+   :ID:       1
+   :ORDERED:  t
+   :COMPANY:  IKEA
+   :START_DATE: [2020-07-01 Wed]
+   :END_DATE: [2022-04-03 Sun]
+   :LOCATION: Oakland, CA
+   :REMOTE:   t
+   :END:
+- Spearheaded the development and implementation of innovative software solutions to enhance the efficiency of inventory management systems, resulting in a significant reduction in operational costs for IKEA's global supply chain.
+- Collaborated with cross-functional teams to design and deploy customer-centric web and mobile applications, improving the shopping experience and driving online sales growth by 30%.
+- Led the integration of emerging technologies, such as machine learning algorithms and IoT devices, to optimize warehouse logistics and streamline product delivery processes.
+- Contributed to the continuous improvement of software development practices by championing agile methodologies, conducting code reviews, and mentoring junior team members to ensure the delivery of high-quality code on schedule.
+** Senior Software Engineer at SpaceX
+   :PROPERTIES:
+   :ID:       4
+   :ORDERED:  t
+   :COMPANY:  SpaceX
+   :START_DATE: [2018-06-01 Fri]
+   :END_DATE: [2022-09-30 Fri]
+   :LOCATION: Hawthorne, CA
+   :REMOTE:   nil
+   :END:
+- Spearheaded the development and implementation of mission-critical software systems for SpaceX's Falcon rockets, ensuring reliability and safety during space missions.
+- Collaborated closely with aerospace engineers to design and optimize software algorithms for trajectory calculations, resulting in more precise and efficient rocket launches.
+- Led the integration of software components for SpaceX's autonomous drone ships, enabling successful rocket stage recovery and reducing mission costs.
+- Contributed to the development of SpaceX's next-generation spacecraft, including Dragon and Starship, by designing and implementing software features to support crewed spaceflight missions.
 * Awards
 ** Customer Obsession
    :PROPERTIES:
