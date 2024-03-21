@@ -18,7 +18,7 @@ class Resume(Node):
         self.set_linkedin()
         self.set_summary(   )
         self.set_skills()
-        self.set_experience()
+        self.set_education_history()
         self.set_awards()
 
     def set_meta(self):
@@ -70,12 +70,17 @@ class Resume(Node):
             self.get_node_by_heading('skills').body
         )
 
-    def set_experience(self):
-        self.experience = list()
-        jobs = self.get_node_by_heading('Experience').children
-        for job in jobs:
-            self.experience.append(Job(job))
-        pass
+    def set_education_history(self):
+        self.education_history = list()
+        educations = self.get_node_by_heading('Education').children
+        for edu in educations:
+            self.education_history.append(Education(edu))
+        
+    def set_awards(self):
+        self.awards = list()
+        awards = self.get_node_by_heading('Awards').children
+        for award in awards:
+            self.awards.append(Award(award))
 
 class Job(Node, dict):
     properties = (
