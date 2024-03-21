@@ -53,6 +53,7 @@ Results-driven software engineer with expertise in full-stack development and ag
    :LOCATION: Oakland, CA
    :REMOTE:   t
    :END:
+*** Details
 - Spearheaded the development and implementation of innovative software solutions to enhance the efficiency of inventory management systems, resulting in a significant reduction in operational costs for IKEA's global supply chain.
 - Collaborated with cross-functional teams to design and deploy customer-centric web and mobile applications, improving the shopping experience and driving online sales growth by 30%.
 - Led the integration of emerging technologies, such as machine learning algorithms and IoT devices, to optimize warehouse logistics and streamline product delivery processes.
@@ -67,6 +68,7 @@ Results-driven software engineer with expertise in full-stack development and ag
    :LOCATION: Hawthorne, CA
    :REMOTE:   nil
    :END:
+*** Details
 - Spearheaded the development and implementation of mission-critical software systems for SpaceX's Falcon rockets, ensuring reliability and safety during space missions.
 - Collaborated closely with aerospace engineers to design and optimize software algorithms for trajectory calculations, resulting in more precise and efficient rocket launches.
 - Led the integration of software components for SpaceX's autonomous drone ships, enabling successful rocket stage recovery and reducing mission costs.
