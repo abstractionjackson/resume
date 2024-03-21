@@ -10,9 +10,33 @@
     <title>{{ meta["TITLE"] }}</title>
   </head>
   <body>
-    <header>
-      {% include "partials/_name.html" %}
-      {% include "partials/_contact.html" %}
-    </header>
+      <main>
+        <section>
+          <main>
+            {% include "partials/_name.html" %}
+          </main>
+        </section>
+        <section>
+          <main>
+            {% include "partials/_contact.html" %}
+          </main>
+        </section>
+        <section>
+          <header>
+            <h3>Skills</h3>
+          </header>
+          <main>
+            {% include "partials/_skills.html" %}
+          </main>
+        </section>
+        <section>
+          <header>
+            <h3>Experience</h3>
+          </header>
+          <main>
+            {% include "partials/_experience_list.html" %}
+          </main>
+        </section>
+      </main>
   </body>
 </html>

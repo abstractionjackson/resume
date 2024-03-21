@@ -1,0 +1,6 @@
+{% set skills = resume.skills %}
+<ul class="skills">
+{% for skill in skills %}
+    <li>{{ skill }}</li>
+{% endfor %}
+</ul>

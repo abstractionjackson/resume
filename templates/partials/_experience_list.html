@@ -1,0 +1,5 @@
+<ul class="experience">
+    {% for job in resume.experience %}
+        <li>{% include "partials/_experience_item.html" %}</li>
+    {% endfor %}
+</ul>

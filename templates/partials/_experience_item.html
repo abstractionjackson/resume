@@ -1,0 +1,17 @@
+<article>
+    <header>
+        <h4>{{ job.title }}</h4>
+        <h5>{{ job.company }}</h5>
+        <h6>{{ job.location }}</h6>
+        <time datetime="{{ job.start_date }}">{{ job.start_date.strftime('%B %d, %Y') }}</time> -
+        <time datetime="{{ job.end_date }}">{{ job.end_date.strftime('%B %d, %Y')  }}</time>
+    </header>
+    <main>
+        <ul>
+            {% for detail in job.details %}
+            <li>{{ detail }}</li>
+            {% endfor %}
+        </ul>
+    </main>
+</article>
+<!-- END: be15d9bcejpp -->
