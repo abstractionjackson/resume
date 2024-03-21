@@ -50,3 +50,11 @@ Results-driven software engineer with expertise in full-stack development and ag
    :ISS:      Amazon
    :YEAR:     2022
    :END:
+* Education
+** B.A. English
+   :PROPERTIES:
+   :ID:       1
+   :LOCATION: New York, NY
+   :ISS:      Fordham University
+   :YEAR:     2012
+   :END:
