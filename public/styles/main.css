@@ -1,5 +1,19 @@
+@import url("skills.css");
+
 :root {
   --contact-container-margin: 0.5em;
+}
+
+body {
+  padding: 0.5in;
+  width: 8.5in;
+}
+
+section {
+}
+
+section > header {
+  margin: 1rem 0;
 }
 
 /* Heading 1 */
