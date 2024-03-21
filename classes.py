@@ -19,6 +19,7 @@ class Resume(Node):
         self.set_summary(   )
         self.set_skills()
         self.set_experience()
+        self.set_awards()
 
     def set_meta(self):
         self.meta = {}
@@ -33,6 +34,9 @@ class Resume(Node):
     def set_summary(self):
         self.summary = self.get_node_by_heading('summary').body
         
+    def set_awards(self):
+        pass
+
     def _get_node_properties(self, node, *properties):
         return {
             prop.upper(): node.get_property(prop.upper())
@@ -92,3 +96,28 @@ class Job(Node, dict):
         )
         for org_date in ('start_date', 'end_date'):
             self[org_date] = parse_org_date(self[org_date])
+
+class Award(Node, dict):
+    properties = (
+        'id',
+        'iss',
+        'year'
+    )
+    def __init__(self, node):
+        super().__init__(node)
+        self.title = node.heading
+        for property in self.properties:
+            self[property] = node.get_property(property.upper())
+
+class Education(Node, dict):
+    properties = (
+        'id',
+        'iss',
+        'year',
+        'location',
+    )
+    def __init__(self, node):
+        super().__init__(node)
+        self.title = node.heading
+        for property in self.properties:
+            self[property] = node.get_property(property.upper())
