@@ -1,4 +1,5 @@
 @import url("skills.css");
+@import url("experience.css");
 
 :root {
   --contact-container-margin: 0.5em;
@@ -7,9 +8,6 @@
 body {
   padding: 0.5in;
   width: 8.5in;
-}
-
-section {
 }
 
 section > header {
@@ -71,12 +69,11 @@ section.contact {
   display: flex;
 }
 .contact.container {
-  margin-left: var(--contact-container-margin);
   margin-right: var(--contact-container-margin);
 }
 .contact.container::after {
   content: "|";
-  margin-left: calc(var(--contact-container-margin) * 2);
+  margin-left: calc(var(--contact-container-margin) * 1);
 }
 .contact.container:last-child::after {
   content: initial;

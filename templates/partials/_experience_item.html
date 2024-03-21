@@ -1,4 +1,4 @@
-<article>
+<article id="job-{{ job.id}}">
     <header>
         <h4>{{ job.title }}</h4>
         <h5>{{ job.company }}</h5>
@@ -7,11 +7,10 @@
         <time datetime="{{ job.end_date }}">{{ job.end_date.strftime('%B %d, %Y')  }}</time>
     </header>
     <main>
-        <ul>
+        <ul class="job details">
             {% for detail in job.details %}
-            <li>{{ detail }}</li>
+            <li class="detail"><span>{{ detail }}</span></li>
             {% endfor %}
         </ul>
     </main>
 </article>
-<!-- END: be15d9bcejpp -->
