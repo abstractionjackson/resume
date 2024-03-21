@@ -1,10 +1,10 @@
-ul.skills {
+ul.skill {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
   grid-template-rows: repeat(4, 1fr);
 }
 
-ul.skills > li::before {
+ul.skill > li::before {
   content: "\2713";
   margin-right: 0.3em;
 }
