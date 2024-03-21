@@ -1,4 +1,4 @@
-from Resume import Resume
+from classes import Resume
 from dotenv import load_dotenv
 from os import environ, path
 from orgparse import load as load_org
