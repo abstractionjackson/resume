@@ -18,6 +18,7 @@ class Resume(Node):
         self.set_linkedin()
         self.set_summary(   )
         self.set_skills()
+        self.set_jobs()
         self.set_education_history()
         self.set_awards()
 
@@ -70,17 +71,23 @@ class Resume(Node):
             self.get_node_by_heading('skills').body
         )
 
-    def set_education_history(self):
-        self.education_history = list()
-        educations = self.get_node_by_heading('Education').children
-        for edu in educations:
-            self.education_history.append(Education(edu))
-        
+    def set_jobs(self):
+        self.jobs = list()
+        jobs = self.get_node_by_heading('Experience').children
+        for job in jobs:
+            self.jobs.append(Job(job))
+
     def set_awards(self):
         self.awards = list()
         awards = self.get_node_by_heading('Awards').children
         for award in awards:
             self.awards.append(Award(award))
+
+    def set_education_history(self):
+        self.education_history = list()
+        educations = self.get_node_by_heading('Education').children
+        for edu in educations:
+            self.education_history.append(Education(edu))
 
 class Job(Node, dict):
     properties = (
