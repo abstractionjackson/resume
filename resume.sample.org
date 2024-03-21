@@ -43,3 +43,18 @@ Results-driven software engineer with expertise in full-stack development and ag
 - Utilized Agile methodologies to streamline project workflows and ensure timely delivery of high-quality code.
 - Demonstrated expertise in full-stack development, with proficiency in languages such as Python, JavaScript, and Java.
 - Contributed to the optimization of database architecture and performance tuning for enhanced system efficiency.
+* Awards
+** Customer Obsession
+   :PROPERTIES:
+   :ID:       1
+   :ISS:      Amazon
+   :YEAR:     2022
+   :END:
+* Education
+** B.A. English
+   :PROPERTIES:
+   :ID:       1
+   :LOCATION: New York, NY
+   :ISS:      Fordham University
+   :YEAR:     2012
+   :END:
