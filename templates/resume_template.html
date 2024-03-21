@@ -3,6 +3,7 @@
 {% set email = resume.email %}
 {% set location = resume.location %}
 {% set linkedin = resume.linkedin %}
+{% set summary = resume.summary %}
 <html>
   <head>
     <link rel="stylesheet" href="styles/reset.css" />
@@ -19,6 +20,14 @@
         <section>
           <main>
             {% include "partials/_contact.html" %}
+          </main>
+        </section>
+        <section>
+          <header>
+            <h3>Professional Summary</h3>
+          </header>
+          <main>
+            {% include "partials/_summary.html" %}
           </main>
         </section>
         <section>

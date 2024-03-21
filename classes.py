@@ -16,6 +16,7 @@ class Resume(Node):
         self.set_email()
         self.set_location()
         self.set_linkedin()
+        self.set_summary(   )
         self.set_skills()
         self.set_experience()
 
@@ -29,7 +30,9 @@ class Resume(Node):
                     key, value = key_value_pair
                     self.meta[key.strip().upper()] = value.strip()
 
-    
+    def set_summary(self):
+        self.summary = self.get_node_by_heading('summary').body
+        
     def _get_node_properties(self, node, *properties):
         return {
             prop.upper(): node.get_property(prop.upper())

@@ -13,6 +13,8 @@
   :GITHUB: octocat
   :LINKEDIN: johndoebar
   :END:
+* Summary
+Results-driven software engineer with expertise in full-stack development and agile methodologies. Proven ability to lead cross-functional teams and deliver high-quality solutions on time. Passionate about problem-solving and committed to continuous learning.
 * Skills
   - HTML
   - CSS
@@ -25,7 +27,7 @@
   - MongoDB
   - SQL
   - RESTful APIs
-  - Responsive Design- 
+  - Responsive Design 
 * Experience
 ** Software Development Engineer
    :PROPERTIES:
@@ -37,7 +39,7 @@
    :REMOTE:   t
    :END:
 *** Details
-- lorem
-- ipsum
-- dolor
-- est
+- Led cross-functional teams in the development and implementation of scalable software solutions.
+- Utilized Agile methodologies to streamline project workflows and ensure timely delivery of high-quality code.
+- Demonstrated expertise in full-stack development, with proficiency in languages such as Python, JavaScript, and Java.
+- Contributed to the optimization of database architecture and performance tuning for enhanced system efficiency.
