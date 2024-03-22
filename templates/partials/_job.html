@@ -2,6 +2,12 @@
     <header>
         <h4>{{ job.title }}</h4>
         <h5>{{ job.company }}</h5>
+        {% if job.contract %}
+        <h5>Contract</h5>
+        {% endif %}
+        {% if job.remote %}
+        <h5>Remote</h5>
+        {% endif %}
         <h6>{{ job.location }}</h6>
         <time datetime="{{ job.start_date }}">{{ job.start_date.strftime('%B %d, %Y') }}</time> -
         <time datetime="{{ job.end_date }}">{{ job.end_date.strftime('%B %d, %Y')  }}</time>
