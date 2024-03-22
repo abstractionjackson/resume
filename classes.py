@@ -1,4 +1,4 @@
-from utils import parse_bulleted_list, parse_org_date
+from utils import parse_bulleted_list, parse_org_boolean, parse_org_date
 
 class Node:
     def __init__(self, root):
@@ -96,6 +96,11 @@ class Job(Node, dict):
         'start_date',
         'end_date',
         'location',
+        'remote',
+        'contract'
+    )
+    boolean_properties = (
+        'contract',
         'remote'
     )
     def __init__(self, node):
@@ -103,6 +108,8 @@ class Job(Node, dict):
         self.title = node.heading
         for property in self.properties:
             self[property] = node.get_property(property.upper())
+            if property in self.boolean_properties:
+                self[property] = parse_org_boolean(self[property])
         self.details = parse_bulleted_list(
             self.get_node_by_heading('details').body
         )
