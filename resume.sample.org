@@ -37,6 +37,7 @@ Results-driven software engineer with expertise in full-stack development and ag
    :END_DATE:     [2022-09-30 Fri]
    :LOCATION: Boston, MA
    :REMOTE:   t
+   :CONTRACT: nil
    :END:
 *** Details
 - Led cross-functional teams in the development and implementation of scalable software solutions.
@@ -52,6 +53,7 @@ Results-driven software engineer with expertise in full-stack development and ag
    :END_DATE: [2022-04-03 Sun]
    :LOCATION: Oakland, CA
    :REMOTE:   t
+   :CONTRACT: nil
    :END:
 *** Details
 - Spearheaded the development and implementation of innovative software solutions to enhance the efficiency of inventory management systems, resulting in a significant reduction in operational costs for IKEA's global supply chain.
@@ -67,6 +69,7 @@ Results-driven software engineer with expertise in full-stack development and ag
    :END_DATE: [2022-09-30 Fri]
    :LOCATION: Hawthorne, CA
    :REMOTE:   nil
+   :CONTRACT: t
    :END:
 *** Details
 - Spearheaded the development and implementation of mission-critical software systems for SpaceX's Falcon rockets, ensuring reliability and safety during space missions.
