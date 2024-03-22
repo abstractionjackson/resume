@@ -20,3 +20,7 @@ def parse_org_date(org_date):
         return org_date.split(' ', 1)[0]
     # remove brackets, then day
     return datetime.strptime(remove_day(remove_brackets(org_date)), '%Y-%m-%d')
+
+def parse_org_boolean(org_boolean):
+    '''Takes an org-mode boolean string and returns a Python boolean'''
+    return org_boolean == 't'
