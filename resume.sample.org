@@ -37,7 +37,7 @@ Results-driven software engineer with expertise in full-stack development and ag
    :END_DATE:     [2022-09-30 Fri]
    :LOCATION: Boston, MA
    :REMOTE:   t
-   :CONTRACT: nil
+   :CONTRACT: t
    :END:
 *** Summary
 Led the development of mobile applications, employing agile methodologies to deliver high-quality software solutions on time and within budget.
