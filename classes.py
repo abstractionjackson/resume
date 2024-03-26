@@ -97,11 +97,15 @@ class Job(Node, dict):
         'end_date',
         'location',
         'remote',
-        'contract'
+        'contract',
     )
     boolean_properties = (
         'contract',
         'remote'
+    )
+    sections = (
+        'details',
+        'summary'
     )
     def __init__(self, node):
         super().__init__(node)
@@ -113,6 +117,7 @@ class Job(Node, dict):
         self.details = parse_bulleted_list(
             self.get_node_by_heading('details').body
         )
+        self.summary = self.get_node_by_heading('summary').body
         for org_date in ('start_date', 'end_date'):
             self[org_date] = parse_org_date(self[org_date])
 

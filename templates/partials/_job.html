@@ -1,16 +1,27 @@
-<article id="job-{{ job.id}}">
-    <header>
-        <h4>{{ job.title }}</h4>
-        <h5>{{ job.company }}</h5>
-        {% if job.contract %}
-        <h5>Contract</h5>
-        {% endif %}
-        {% if job.remote %}
-        <h5>Remote</h5>
-        {% endif %}
-        <h6>{{ job.location }}</h6>
-        <time datetime="{{ job.start_date }}">{{ job.start_date.strftime('%B %d, %Y') }}</time> -
-        <time datetime="{{ job.end_date }}">{{ job.end_date.strftime('%B %d, %Y')  }}</time>
+<article class="job" id="job-{{ job.id}}">
+    <header class="job">
+        <section class="job title">
+            <h4>{{ job.title }}</h4>
+        </section>
+        <section class="job company">
+            <h5>{{ job.company }}</h5>
+            {% if job.contract %}
+            <h6 class="job contract label">Contract</h6>
+            {% endif %}
+        </section>
+        <section class="job location">
+            <h6>{{ job.location }}</h6>
+            {% if job.remote %}
+            <h6 class="job remote label">Remote</h6>
+            {% endif %}
+        </section>
+        <section class="job dates">
+            <time datetime="{{ job.start_date }}">{{ job.start_date.strftime('%B %d, %Y') }}</time> -
+            <time datetime="{{ job.end_date }}">{{ job.end_date.strftime('%B %d, %Y')  }}</time>
+        </section>
+        <section class="job summary">
+            <p>{{ job.summary }}</p>
+        </section>
     </header>
     <main>
         <ul class="job details">

@@ -1,0 +1,54 @@
+ul.job.details > li.detail {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 0.5em;
+}
+
+article.job > header {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+section.job {
+    display: flex;
+    align-items: baseline;
+}
+
+section.job.title {
+    grid-row: 1;
+}
+
+section.job.company {
+    grid-row: 2;
+}
+.job.company > h5,
+.job.location > h6 {
+    font-weight: 500;
+}
+section.job.dates {
+    grid-row: 3;
+    font-size: 11pt;
+    color: #666;
+}
+
+section.job.location {
+    grid-row: 4;
+}
+.job.location > h6 {
+    color: #666;
+}
+
+.job.label {
+    /* fade text color */
+    color: #666;
+    margin-left: 0.5em;
+    font-weight: 500;
+}
+.job.label::before {
+    content: '\2022';
+    margin-right: 0.5em;
+}
+section.job.summary > p {
+    /* indent  first line*/
+    text-indent: 1em;
+}
