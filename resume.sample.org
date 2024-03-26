@@ -39,6 +39,8 @@ Results-driven software engineer with expertise in full-stack development and ag
    :REMOTE:   t
    :CONTRACT: nil
    :END:
+*** Summary
+Led the development of mobile applications, employing agile methodologies to deliver high-quality software solutions on time and within budget.
 *** Details
 - Led cross-functional teams in the development and implementation of scalable software solutions.
 - Utilized Agile methodologies to streamline project workflows and ensure timely delivery of high-quality code.
@@ -55,6 +57,8 @@ Results-driven software engineer with expertise in full-stack development and ag
    :REMOTE:   t
    :CONTRACT: nil
    :END:
+*** Summary
+Collaborated with cross-functional teams to design and implement innovative software solutions, enhancing product functionality and maintaining code integrity.
 *** Details
 - Spearheaded the development and implementation of innovative software solutions to enhance the efficiency of inventory management systems, resulting in a significant reduction in operational costs for IKEA's global supply chain.
 - Collaborated with cross-functional teams to design and deploy customer-centric web and mobile applications, improving the shopping experience and driving online sales growth by 30%.
@@ -71,6 +75,8 @@ Results-driven software engineer with expertise in full-stack development and ag
    :REMOTE:   nil
    :CONTRACT: t
    :END:
+*** Summary
+Developed scalable backend systems and APIs for a leading e-commerce platform, optimizing performance and ensuring seamless user experiences.
 *** Details
 - Spearheaded the development and implementation of mission-critical software systems for SpaceX's Falcon rockets, ensuring reliability and safety during space missions.
 - Collaborated closely with aerospace engineers to design and optimize software algorithms for trajectory calculations, resulting in more precise and efficient rocket launches.
