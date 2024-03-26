@@ -30,4 +30,14 @@
             {% endfor %}
         </ul>
     </main>
+    <footer>
+        <section class="job skills">
+            <h6>Skills: </h6>
+            <ul>
+                {% for skill in job.skills %}
+                <li class="skill"><span>{{ skill }}</span></li>
+                {% endfor %}
+            </ul>
+        </section>
+    </footer>
 </article>

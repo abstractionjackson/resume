@@ -38,6 +38,7 @@ Results-driven software engineer with expertise in full-stack development and ag
    :LOCATION: Boston, MA
    :REMOTE:   t
    :CONTRACT: t
+   :SKILLS: Cloud computing, Distributed systems, Serverless architecture
    :END:
 *** Summary
 Led the development of mobile applications, employing agile methodologies to deliver high-quality software solutions on time and within budget.
@@ -56,6 +57,7 @@ Led the development of mobile applications, employing agile methodologies to del
    :LOCATION: Oakland, CA
    :REMOTE:   t
    :CONTRACT: nil
+   :SKILLS: E-commerce platforms, Inventory management systems, User experience design
    :END:
 *** Summary
 Collaborated with cross-functional teams to design and implement innovative software solutions, enhancing product functionality and maintaining code integrity.
@@ -74,6 +76,7 @@ Collaborated with cross-functional teams to design and implement innovative soft
    :LOCATION: Hawthorne, CA
    :REMOTE:   nil
    :CONTRACT: t
+   :SKILLS: Aerospace software development, Embedded systems, Mission-critical software engineering
    :END:
 *** Summary
 Developed scalable backend systems and APIs for a leading e-commerce platform, optimizing performance and ensuring seamless user experiences.

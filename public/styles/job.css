@@ -52,3 +52,25 @@ section.job.summary > p {
     /* indent  first line*/
     text-indent: 1em;
 }
+section.job.skills {
+    display: flex;
+    align-items: baseline;
+}
+section.job.skills > h6 {
+    font-size: 12pt;
+}
+section.job.skills > ul {
+    display: flex;
+}
+section.job.skills > ul > li {
+    margin-right: 0.5em;
+}
+section.job.skills > ul > li::before {
+    content: '\2022';
+    margin-right: 0.5em;
+}
+/* no before content on the first li */
+section.job.skills > ul > li:first-child::before {
+    content: '';
+    margin-right: 0.5em;
+}

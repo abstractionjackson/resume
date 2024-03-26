@@ -98,10 +98,14 @@ class Job(Node, dict):
         'location',
         'remote',
         'contract',
+        "skills",
     )
     boolean_properties = (
         'contract',
         'remote'
+    )
+    csv_properties = (
+        'skills'
     )
     sections = (
         'details',
@@ -114,6 +118,8 @@ class Job(Node, dict):
             self[property] = node.get_property(property.upper())
             if property in self.boolean_properties:
                 self[property] = parse_org_boolean(self[property])
+            if property in self.csv_properties:
+                self[property] = self[property].split(',')
         self.details = parse_bulleted_list(
             self.get_node_by_heading('details').body
         )
