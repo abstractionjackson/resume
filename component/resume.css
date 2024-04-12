@@ -1,0 +1,10 @@
+ul#contact,
+ul#social {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+ul#contact li,
+ul#social li{
+    margin-right: 1em;
+}

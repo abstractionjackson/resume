@@ -1,0 +1,40 @@
+{
+    "name": "George Washington",
+    "contact": {
+        "address": "Mount Vernon, VA",
+        "website": "http://www.mountvernon.org/",
+        "email": "georgewashington@usa.gov"
+    },
+    "experience": [
+        {
+            "title": "President",
+            "organization": "United States of America",
+            "startDate": "1789-04-30",
+            "endDate": "1797-03-04",
+            "description": "First President of the United States"
+        },
+        {
+            "title": "Commander-in-Chief",
+            "organization": "Continental Army",
+            "startDate": "1775-06-15",
+            "endDate": "1783-12-23",
+            "description": "Commander of the Continental Army during the American Revolutionary War"
+        },
+        {
+            "title": "Delegate",
+            "organization": "Continental Congress",
+            "startDate": "1774-09-05",
+            "endDate": "1783-11-01",
+            "description": "Delegate to the Continental Congress"
+        }
+    ],
+    "education": [
+        {
+            "degree": "None",
+            "major": "None",
+            "school": "None",
+            "startDate": "None",
+            "endDate": "None"
+        }
+    ]
+}
